@@ -144,17 +144,21 @@ _ORDEN_ROTACION = ["arriba", "derecha", "abajo", "izquierda"]
 def ciclo_exploracion(captura_antes, direccion_actual: str) -> str:
     """Exploracion 'a ciegas': sin posicion real, solo detecta colision por
     fotogramas. Si la direccion actual funciona, sigue derecho; si choca,
-    rota a la siguiente direccion de la lista."""
-    mover(direccion_actual)
-    time.sleep(0.2)
-    captura_despues = capturar_juego()
+    reintenta una vez la misma direccion (puede ser un falso negativo del hash
+    en terreno con textura repetitiva) antes de rotar a la siguiente."""
+    for intento in range(2):
+        mover(direccion_actual)
+        time.sleep(0.2)
+        captura_despues = capturar_juego()
 
-    if hubo_movimiento(captura_antes, captura_despues):
-        logger.info(f"[EXPLORACION] Avanzando hacia '{direccion_actual}'")
-        return direccion_actual
+        if hubo_movimiento(captura_antes, captura_despues):
+            logger.info(f"[EXPLORACION] Avanzando hacia '{direccion_actual}'")
+            return direccion_actual
+
+        captura_antes = captura_despues
 
     siguiente = _ORDEN_ROTACION[(_ORDEN_ROTACION.index(direccion_actual) + 1) % 4]
-    logger.info(f"[EXPLORACION] Bloqueado hacia '{direccion_actual}', rotando a '{siguiente}'")
+    logger.info(f"[EXPLORACION] Bloqueado hacia '{direccion_actual}' (2 intentos), rotando a '{siguiente}'")
     return siguiente
 
 

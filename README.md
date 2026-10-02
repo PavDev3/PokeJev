@@ -1,6 +1,9 @@
 # PokeJev
 
-Bot que juega Pokemon Anil (RPG Maker, randomizer) usando [Jev](https://typesafe.ai) (typesafe-sdk) como motor de decision, con vision clasica (OpenCV + EasyOCR) para leer el estado del juego -- sin modelos de IA de vision ni inyeccion de codigo en el proceso del juego.
+Bots que juegan Pokemon usando [Jev](https://typesafe.ai) (typesafe-sdk) como motor de decision:
+
+- **Pokemon Anil** (`src/`): un fangame RPG Maker, leido con vision clasica (OpenCV + EasyOCR) -- sin modelos de IA de vision ni inyeccion de codigo en el proceso del juego.
+- **Pokemon Showdown** (`showdown/`): juega batallas reales contra otros jugadores en la ladder publica, via el protocolo de texto de Showdown -- sin vision ni memoria, el estado llega ya estructurado.
 
 ## Arquitectura
 
@@ -65,3 +68,15 @@ El motor del juego es RPG Maker con RGSS (Ruby). La posicion del jugador es un a
 ### Limitacion conocida de la pokedex
 
 El juego es un randomizer/fangame que incluye Pokemon de generaciones mas alla de la 1. La base de conocimiento cubre 154 Pokemon (151 de Gen1 + los vistos en combates reales) y 83 movimientos traducidos de español a ingles -- se amplia segun se encuentren nuevos casos.
+
+## Pokemon Showdown
+
+Juega UNA batalla en la ladder publica (Random Battle) con tu propia cuenta y se detiene solo al terminar.
+
+```bash
+python -m showdown.main
+```
+
+Pide usuario y contrasena de forma interactiva (la contrasena no se muestra al escribirla y no se guarda en ningun archivo). Mientras corre, abre [play.pokemonshowdown.com](https://play.pokemonshowdown.com) para ver la batalla en vivo.
+
+Para jugar otra batalla, vuelve a correr el comando.

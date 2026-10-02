@@ -11,3 +11,5 @@ calibration/tras_*.png
 calibration/test_*.png
 calibration/*_actual.png
 .pytest_cache/
+showdown/showdown_bot.log
+calibration/captura_remota*.png

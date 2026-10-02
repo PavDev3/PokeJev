@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 
 
-def hash_perceptual(captura_bgr: np.ndarray, tamano: int = 16) -> np.ndarray:
+def hash_perceptual(captura_bgr: np.ndarray, tamano: int = 24) -> np.ndarray:
     """Hash perceptual simple: reduce la imagen y binariza contra el promedio.
     Tolerante a pequeños cambios de animacion (parpadeos, sprites menores)."""
     gris = cv2.cvtColor(captura_bgr, cv2.COLOR_BGR2GRAY)
@@ -23,7 +23,7 @@ def distancia_hash(hash_a: np.ndarray, hash_b: np.ndarray) -> int:
     return int(np.count_nonzero(hash_a != hash_b))
 
 
-def hubo_movimiento(antes_bgr: np.ndarray, despues_bgr: np.ndarray, umbral: int = 12) -> bool:
+def hubo_movimiento(antes_bgr: np.ndarray, despues_bgr: np.ndarray, umbral: int = 20) -> bool:
     """True si la escena cambio lo suficiente como para asumir que el personaje
     se movio de verdad (no solo una animacion menor de fondo)."""
     h1 = hash_perceptual(antes_bgr)

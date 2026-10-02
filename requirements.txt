@@ -6,3 +6,5 @@ Pillow
 pynput
 pywin32
 pymem
+websockets
+requests

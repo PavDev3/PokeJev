@@ -98,7 +98,7 @@ def direcciones_con_delta(antes: Snapshot, despues: Snapshot, delta_esperado: in
         diffs = arr_despues.astype(np.int64) - arr_antes.astype(np.int64)
         indices = np.where(diffs == delta_esperado)[0]
         for i in indices:
-            candidatos.append(base + i * 4)
+            candidatos.append(int(base + i * 4))  # evitar numpy.int64 (pymem exige int nativo)
     return candidatos
 
 
