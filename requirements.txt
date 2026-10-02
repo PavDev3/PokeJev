@@ -1,0 +1,8 @@
+typesafe-sdk
+opencv-python
+pytesseract
+mss
+Pillow
+pynput
+pywin32
+pymem

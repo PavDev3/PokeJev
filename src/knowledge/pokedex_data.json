@@ -1,0 +1,667 @@
+{
+  "type_chart": {
+    "Normal": {
+      "Rock": 0.5,
+      "Ghost": 0.0,
+      "Steel": 0.5
+    },
+    "Fire": {
+      "Fire": 0.5,
+      "Water": 0.5,
+      "Grass": 2.0,
+      "Ice": 2.0,
+      "Bug": 2.0,
+      "Rock": 0.5,
+      "Dragon": 0.5,
+      "Steel": 2.0
+    },
+    "Water": {
+      "Fire": 2.0,
+      "Water": 0.5,
+      "Grass": 0.5,
+      "Ground": 2.0,
+      "Rock": 2.0,
+      "Dragon": 0.5
+    },
+    "Electric": {
+      "Water": 2.0,
+      "Electric": 0.5,
+      "Grass": 0.5,
+      "Ground": 0.0,
+      "Flying": 2.0,
+      "Dragon": 0.5
+    },
+    "Grass": {
+      "Fire": 0.5,
+      "Water": 2.0,
+      "Grass": 0.5,
+      "Poison": 0.5,
+      "Ground": 2.0,
+      "Flying": 0.5,
+      "Bug": 0.5,
+      "Rock": 2.0,
+      "Dragon": 0.5,
+      "Steel": 0.5
+    },
+    "Ice": {
+      "Fire": 0.5,
+      "Water": 0.5,
+      "Grass": 2.0,
+      "Ice": 0.5,
+      "Ground": 2.0,
+      "Flying": 2.0,
+      "Dragon": 2.0,
+      "Steel": 0.5
+    },
+    "Fighting": {
+      "Normal": 2.0,
+      "Ice": 2.0,
+      "Poison": 0.5,
+      "Flying": 0.5,
+      "Psychic": 0.5,
+      "Bug": 0.5,
+      "Rock": 2.0,
+      "Ghost": 0.0,
+      "Dark": 2.0,
+      "Steel": 2.0,
+      "Fairy": 0.5
+    },
+    "Poison": {
+      "Grass": 2.0,
+      "Poison": 0.5,
+      "Ground": 0.5,
+      "Rock": 0.5,
+      "Ghost": 0.5,
+      "Steel": 0.0,
+      "Fairy": 2.0
+    },
+    "Ground": {
+      "Fire": 2.0,
+      "Electric": 2.0,
+      "Grass": 0.5,
+      "Poison": 2.0,
+      "Flying": 0.0,
+      "Bug": 0.5,
+      "Rock": 2.0,
+      "Steel": 2.0
+    },
+    "Flying": {
+      "Electric": 0.5,
+      "Grass": 2.0,
+      "Fighting": 2.0,
+      "Bug": 2.0,
+      "Rock": 0.5,
+      "Steel": 0.5
+    },
+    "Psychic": {
+      "Fighting": 2.0,
+      "Poison": 2.0,
+      "Psychic": 0.5,
+      "Dark": 0.0,
+      "Steel": 0.5
+    },
+    "Bug": {
+      "Fire": 0.5,
+      "Grass": 2.0,
+      "Fighting": 0.5,
+      "Poison": 0.5,
+      "Flying": 0.5,
+      "Psychic": 2.0,
+      "Ghost": 0.5,
+      "Dark": 2.0,
+      "Steel": 0.5,
+      "Fairy": 0.5
+    },
+    "Rock": {
+      "Fire": 2.0,
+      "Ice": 2.0,
+      "Fighting": 0.5,
+      "Ground": 0.5,
+      "Flying": 2.0,
+      "Bug": 2.0,
+      "Steel": 0.5
+    },
+    "Ghost": {
+      "Normal": 0.0,
+      "Psychic": 2.0,
+      "Ghost": 2.0,
+      "Dark": 0.5
+    },
+    "Dragon": {
+      "Dragon": 2.0,
+      "Steel": 0.5,
+      "Fairy": 0.0
+    },
+    "Dark": {
+      "Fighting": 0.5,
+      "Psychic": 2.0,
+      "Ghost": 2.0,
+      "Dark": 0.5,
+      "Fairy": 0.5
+    },
+    "Steel": {
+      "Fire": 0.5,
+      "Water": 0.5,
+      "Electric": 0.5,
+      "Ice": 2.0,
+      "Rock": 2.0,
+      "Steel": 0.5,
+      "Fairy": 2.0
+    },
+    "Fairy": {
+      "Fire": 0.5,
+      "Fighting": 2.0,
+      "Poison": 0.5,
+      "Dragon": 2.0,
+      "Dark": 2.0,
+      "Steel": 0.5
+    }
+  },
+  "all_types": [
+    "Normal",
+    "Fire",
+    "Water",
+    "Electric",
+    "Grass",
+    "Ice",
+    "Fighting",
+    "Poison",
+    "Ground",
+    "Flying",
+    "Psychic",
+    "Bug",
+    "Rock",
+    "Ghost",
+    "Dragon",
+    "Dark",
+    "Steel",
+    "Fairy"
+  ],
+  "pokemon_names": [
+    "Bulbasaur",
+    "Ivysaur",
+    "Venusaur",
+    "Charmander",
+    "Charmeleon",
+    "Charizard",
+    "Squirtle",
+    "Wartortle",
+    "Blastoise",
+    "Caterpie",
+    "Metapod",
+    "Butterfree",
+    "Weedle",
+    "Kakuna",
+    "Beedrill",
+    "Pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "Rattata",
+    "Raticate",
+    "Spearow",
+    "Fearow",
+    "Ekans",
+    "Arbok",
+    "Pikachu",
+    "Raichu",
+    "Sandshrew",
+    "Sandslash",
+    "Nidoran-F",
+    "Nidorina",
+    "Nidoqueen",
+    "Nidoran-M",
+    "Nidorino",
+    "Nidoking",
+    "Clefairy",
+    "Clefable",
+    "Vulpix",
+    "Ninetales",
+    "Jigglypuff",
+    "Wigglytuff",
+    "Zubat",
+    "Golbat",
+    "Oddish",
+    "Gloom",
+    "Vileplume",
+    "Paras",
+    "Parasect",
+    "Venonat",
+    "Venomoth",
+    "Diglett",
+    "Dugtrio",
+    "Meowth",
+    "Persian",
+    "Psyduck",
+    "Golduck",
+    "Mankey",
+    "Primeape",
+    "Growlithe",
+    "Arcanine",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Abra",
+    "Kadabra",
+    "Alakazam",
+    "Machop",
+    "Machoke",
+    "Machamp",
+    "Bellsprout",
+    "Weepinbell",
+    "Victreebel",
+    "Tentacool",
+    "Tentacruel",
+    "Geodude",
+    "Graveler",
+    "Golem",
+    "Ponyta",
+    "Rapidash",
+    "Slowpoke",
+    "Slowbro",
+    "Magnemite",
+    "Magneton",
+    "Farfetchd",
+    "Doduo",
+    "Dodrio",
+    "Seel",
+    "Dewgong",
+    "Grimer",
+    "Muk",
+    "Shellder",
+    "Cloyster",
+    "Gastly",
+    "Haunter",
+    "Gengar",
+    "Onix",
+    "Drowzee",
+    "Hypno",
+    "Krabby",
+    "Kingler",
+    "Voltorb",
+    "Electrode",
+    "Exeggcute",
+    "Exeggutor",
+    "Cubone",
+    "Marowak",
+    "Hitmonlee",
+    "Hitmonchan",
+    "Lickitung",
+    "Koffing",
+    "Weezing",
+    "Rhyhorn",
+    "Rhydon",
+    "Chansey",
+    "Tangela",
+    "Kangaskhan",
+    "Horsea",
+    "Seadra",
+    "Goldeen",
+    "Seaking",
+    "Staryu",
+    "Starmie",
+    "Mr-Mime",
+    "Scyther",
+    "Jynx",
+    "Electabuzz",
+    "Magmar",
+    "Pinsir",
+    "Tauros",
+    "Magikarp",
+    "Gyarados",
+    "Lapras",
+    "Ditto",
+    "Eevee",
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Porygon",
+    "Omanyte",
+    "Omastar",
+    "Kabuto",
+    "Kabutops",
+    "Aerodactyl",
+    "Snorlax",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Dratini",
+    "Dragonair",
+    "Dragonite",
+    "Mewtwo",
+    "Mew"
+  ],
+  "moves_data": {
+    "Tackle": {
+      "type": "Normal",
+      "power": 40
+    },
+    "Scratch": {
+      "type": "Normal",
+      "power": 40
+    },
+    "Pound": {
+      "type": "Normal",
+      "power": 40
+    },
+    "Body-Slam": {
+      "type": "Normal",
+      "power": 85
+    },
+    "Hyper-Beam": {
+      "type": "Normal",
+      "power": 150
+    },
+    "Quick-Attack": {
+      "type": "Normal",
+      "power": 40
+    },
+    "Double-Edge": {
+      "type": "Normal",
+      "power": 120
+    },
+    "Return": {
+      "type": "Normal",
+      "power": 102
+    },
+    "Slash": {
+      "type": "Normal",
+      "power": 70
+    },
+    "Ember": {
+      "type": "Fire",
+      "power": 40
+    },
+    "Flamethrower": {
+      "type": "Fire",
+      "power": 90
+    },
+    "Fire-Blast": {
+      "type": "Fire",
+      "power": 110
+    },
+    "Fire-Spin": {
+      "type": "Fire",
+      "power": 35
+    },
+    "Overheat": {
+      "type": "Fire",
+      "power": 130
+    },
+    "Water-Gun": {
+      "type": "Water",
+      "power": 40
+    },
+    "Surf": {
+      "type": "Water",
+      "power": 90
+    },
+    "Hydro-Pump": {
+      "type": "Water",
+      "power": 110
+    },
+    "Bubble-Beam": {
+      "type": "Water",
+      "power": 65
+    },
+    "Waterfall": {
+      "type": "Water",
+      "power": 80
+    },
+    "Vine-Whip": {
+      "type": "Grass",
+      "power": 45
+    },
+    "Razor-Leaf": {
+      "type": "Grass",
+      "power": 55
+    },
+    "Solar-Beam": {
+      "type": "Grass",
+      "power": 120
+    },
+    "Petal-Dance": {
+      "type": "Grass",
+      "power": 120
+    },
+    "Energy-Ball": {
+      "type": "Grass",
+      "power": 90
+    },
+    "Thunder-Shock": {
+      "type": "Electric",
+      "power": 40
+    },
+    "Thunderbolt": {
+      "type": "Electric",
+      "power": 90
+    },
+    "Thunder": {
+      "type": "Electric",
+      "power": 110
+    },
+    "Spark": {
+      "type": "Electric",
+      "power": 65
+    },
+    "Wild-Charge": {
+      "type": "Electric",
+      "power": 90
+    },
+    "Ice-Beam": {
+      "type": "Ice",
+      "power": 90
+    },
+    "Blizzard": {
+      "type": "Ice",
+      "power": 110
+    },
+    "Ice-Punch": {
+      "type": "Ice",
+      "power": 75
+    },
+    "Powder-Snow": {
+      "type": "Ice",
+      "power": 40
+    },
+    "Aurora-Beam": {
+      "type": "Ice",
+      "power": 65
+    },
+    "Karate-Chop": {
+      "type": "Fighting",
+      "power": 50
+    },
+    "Low-Kick": {
+      "type": "Fighting",
+      "power": 50
+    },
+    "High-Jump-Kick": {
+      "type": "Fighting",
+      "power": 130
+    },
+    "Cross-Chop": {
+      "type": "Fighting",
+      "power": 100
+    },
+    "Close-Combat": {
+      "type": "Fighting",
+      "power": 120
+    },
+    "Poison-Sting": {
+      "type": "Poison",
+      "power": 15
+    },
+    "Sludge-Bomb": {
+      "type": "Poison",
+      "power": 90
+    },
+    "Acid": {
+      "type": "Poison",
+      "power": 40
+    },
+    "Gunk-Shot": {
+      "type": "Poison",
+      "power": 120
+    },
+    "Earthquake": {
+      "type": "Ground",
+      "power": 100
+    },
+    "Dig": {
+      "type": "Ground",
+      "power": 80
+    },
+    "Mud-Shot": {
+      "type": "Ground",
+      "power": 55
+    },
+    "Earth-Power": {
+      "type": "Ground",
+      "power": 90
+    },
+    "Gust": {
+      "type": "Flying",
+      "power": 40
+    },
+    "Wing-Attack": {
+      "type": "Flying",
+      "power": 60
+    },
+    "Aerial-Ace": {
+      "type": "Flying",
+      "power": 60
+    },
+    "Air-Slash": {
+      "type": "Flying",
+      "power": 75
+    },
+    "Brave-Bird": {
+      "type": "Flying",
+      "power": 120
+    },
+    "Confusion": {
+      "type": "Psychic",
+      "power": 50
+    },
+    "Psychic": {
+      "type": "Psychic",
+      "power": 90
+    },
+    "Psybeam": {
+      "type": "Psychic",
+      "power": 65
+    },
+    "Bug-Bite": {
+      "type": "Bug",
+      "power": 60
+    },
+    "X-Scissor": {
+      "type": "Bug",
+      "power": 80
+    },
+    "Signal-Beam": {
+      "type": "Bug",
+      "power": 75
+    },
+    "Rock-Throw": {
+      "type": "Rock",
+      "power": 50
+    },
+    "Rock-Slide": {
+      "type": "Rock",
+      "power": 75
+    },
+    "Stone-Edge": {
+      "type": "Rock",
+      "power": 100
+    },
+    "Rock-Blast": {
+      "type": "Rock",
+      "power": 25
+    },
+    "Lick": {
+      "type": "Ghost",
+      "power": 30
+    },
+    "Shadow-Ball": {
+      "type": "Ghost",
+      "power": 80
+    },
+    "Shadow-Claw": {
+      "type": "Ghost",
+      "power": 70
+    },
+    "Dragon-Rage": {
+      "type": "Dragon",
+      "power": 40
+    },
+    "Dragon-Claw": {
+      "type": "Dragon",
+      "power": 80
+    },
+    "Outrage": {
+      "type": "Dragon",
+      "power": 120
+    },
+    "Draco-Meteor": {
+      "type": "Dragon",
+      "power": 130
+    },
+    "Bite": {
+      "type": "Dark",
+      "power": 60
+    },
+    "Crunch": {
+      "type": "Dark",
+      "power": 80
+    },
+    "Dark-Pulse": {
+      "type": "Dark",
+      "power": 80
+    },
+    "Night-Slash": {
+      "type": "Dark",
+      "power": 70
+    },
+    "Metal-Claw": {
+      "type": "Steel",
+      "power": 50
+    },
+    "Iron-Tail": {
+      "type": "Steel",
+      "power": 100
+    },
+    "Flash-Cannon": {
+      "type": "Steel",
+      "power": 80
+    },
+    "Steel-Wing": {
+      "type": "Steel",
+      "power": 70
+    },
+    "Fairy-Wind": {
+      "type": "Fairy",
+      "power": 40
+    },
+    "Moonblast": {
+      "type": "Fairy",
+      "power": 95
+    },
+    "Dazzling-Gleam": {
+      "type": "Fairy",
+      "power": 80
+    },
+    "Play-Rough": {
+      "type": "Fairy",
+      "power": 90
+    },
+    "Flare-Blitz": {
+      "type": "Fire",
+      "power": 120
+    },
+    "Yawn": {
+      "type": "Normal",
+      "power": 0
+    }
+  }
+}

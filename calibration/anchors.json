@@ -1,0 +1,24 @@
+{
+  "_nota": "Coordenadas relativas al AREA DE CLIENTE de la ventana del juego (ya excluye la barra de titulo de Windows, ver src/vision/capture.py). Calibradas con capturas en vivo via capturar_juego() a 1024x768. Recalibrar al pasar a pantalla completa.",
+  "resolucion_referencia": [1024, 768],
+  "regiones": {
+    "enemigo_info": [0, 0, 500, 210],
+    "jugador_info": [560, 400, 1024, 530],
+    "dialogo": [0, 560, 500, 768],
+    "menu_botones": [495, 595, 1024, 768],
+    "movimientos": [0, 595, 1024, 768]
+  },
+  "botones_combate": {
+    "luchar": [495, 600, 760, 668],
+    "mochila": [760, 600, 1024, 668],
+    "pokemon": [495, 668, 760, 740],
+    "huir": [760, 668, 1024, 740]
+  },
+  "botones_movimientos": {
+    "mov1": [0, 595, 400, 668],
+    "mov2": [400, 595, 785, 668],
+    "mov3": [0, 668, 400, 740],
+    "mov4": [400, 668, 785, 740],
+    "tipo_pp": [785, 595, 1024, 740]
+  }
+}

@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+logs/*.log
+logs/*.png
+calibration/crops/
+calibration/diagnostico_*.png
+calibration/espera.png
+calibration/prueba_*.png
+calibration/tras_*.png
+calibration/test_*.png
+calibration/*_actual.png
+.pytest_cache/
